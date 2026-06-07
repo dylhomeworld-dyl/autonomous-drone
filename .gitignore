@@ -1,0 +1,55 @@
+# ROS 2
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+*.egg-info/
+
+# C/C++
+*.o
+*.a
+*.so
+*.out
+firmware/build/
+
+# PX4
+*.elf
+*.bin
+*.px4
+
+# Credentials — NEVER commit
+companion/scripts/secrets.py
+config/secrets.yaml
+*.key
+
+# ML Models — too large for git
+companion/models/*.pt
+companion/models/*.onnx
+companion/models/*.tflite
+
+# Logs
+*.log
+logs/
+
+# Simulation
+simulation/worlds/*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bag files — too large for git
+*.bag
+*.db3
