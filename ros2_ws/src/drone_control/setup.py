@@ -20,6 +20,7 @@ setup(
     entry_points={
         'console_scripts': [
             'takeoff = drone_control.takeoff:main',
+            'teleop = drone_control.teleop:main',
         ],
     },
 )
